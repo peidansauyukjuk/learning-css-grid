@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS GRID</title>
+  <style>
+    .wrapper{
+      display: grid;
+      grid-template-columns: 70% 30%;
+      grid-gap: 1em;
+    }
+    .wrapper > div{
+      background: #eee;
+      padding: 1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis nulla doloremque deserunt repellendus expedita repudiandae omnis fuga illum unde maxime praesentium dolore quia labore vero atque blanditiis, sapiente sit?
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, natus, quibusdam sapiente, expedita laboriosam modi ullam facere consequuntur magnam debitis obcaecati culpa consectetur ut pariatur enim dicta sequi ea veniam.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi maxime reiciendis minus cupiditate tempora dolores eligendi excepturi id quasi aliquid ipsum itaque quidem, eum iusto unde esse sint asperiores accusantium!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis nulla doloremque deserunt repellendus expedita repudiandae omnis fuga illum unde maxime praesentium dolore quia labore vero atque blanditiis, sapiente sit?
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, natus, quibusdam sapiente, expedita laboriosam modi ullam facere consequuntur magnam debitis obcaecati culpa consectetur ut pariatur enim dicta sequi ea veniam.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi maxime reiciendis minus cupiditate tempora dolores eligendi excepturi id quasi aliquid ipsum itaque quidem, eum iusto unde esse sint asperiores accusantium!
+    </div>
+  </div>
+</body>
+</html>
